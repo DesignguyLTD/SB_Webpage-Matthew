@@ -16,11 +16,12 @@ Intro.args = {
     variant: "intro",
 }
 
-export const Cart = Template.bind({});
-Cart.args = {
-    variant: "cart",
-    children: "Add To Cart"
-}
+//
+//export const Cart = Template.bind({});
+//Cart.args = {
+//    variant: "cart",
+//    children: "Add To Cart"
+//}
 
 export const Discount = Template.bind({});
 Discount.args = {

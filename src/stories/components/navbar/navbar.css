@@ -1,25 +1,25 @@
 .top_nav {
-    background: #7E33E0;
-    color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    background: #7E33E0;
 }
 
 .innertop_ctn {
-    width: 900px;
-    height: 49px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 290px;
+    width: 970px;
+}
+
+.contact {
+    margin-left: 50px;
 }
 
 .details {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 100px;
 }
 
 .inp_ctn {
@@ -66,6 +66,9 @@ select option:hover {
     color: white;
     margin-left: 30px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mail {
@@ -100,13 +103,12 @@ select option:hover {
 }
 
 .inner_ctn {
-    width: 900px;
+    width: 1177px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0px 20px 0px;
-
 }
 
 ul {
@@ -137,6 +139,7 @@ h3 {
 ul li {
     list-style: none;
     padding-right: 30px;
+    padding-bottom: 0px;
 }
 
 ul li a {
