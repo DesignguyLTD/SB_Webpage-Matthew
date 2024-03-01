@@ -19,9 +19,9 @@ Intro.args = {
   variant: "intro",
 };
 
-export const Cart = Template.bind({});
-Cart.args = {
-  variant: "cart",
+export const Shop = Template.bind({});
+Shop.args = {
+  variant: "shop",
   children: "Add To Cart",
 };
 
