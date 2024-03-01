@@ -97,13 +97,19 @@ const Footer = (props) => {
           </div>
           <div className="logos">
             <div className="logo_ctn">
-              <FiFacebook />
+              <a href="#">
+                <FiFacebook />
+              </a>
             </div>
             <div className="logo_ctn">
-              <BiLogoInstagram />
+              <a href="#">
+                <BiLogoInstagram />
+              </a>
             </div>
             <div className="logo_ctn">
-              <TfiTwitter />
+              <a href="#">
+                <TfiTwitter />
+              </a>
             </div>
           </div>
         </div>

@@ -1,0 +1,175 @@
+.top_nav {
+    background: #7E33E0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innertop_ctn {
+    width: 900px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 290px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.inp_ctn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login, .likes, .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.login {
+    margin-right: 30px;
+}
+
+.login div {
+    width: 6px;
+}
+
+select {
+    background: none;
+    color: white;
+    border: none;
+    outline: none;
+    margin-right: 15px;
+}
+
+select option {
+    color: black;
+}
+
+select option:hover {
+    color: white;
+}
+.cart {
+    width: 18px;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+     text-decoration: none;
+}
+
+
+.mail span {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.mail p {
+    font-size: 14px;
+}
+
+.contact span {
+    font-size: 12px;
+    padding-top:7px;
+}
+
+.btm_nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_ctn {
+    width: 900px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.home_dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.home_dropdown:hover {
+    color:#FB2E86;
+}
+
+h3 {
+    margin: 0px;
+    margin-right: 40px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #0D0E43;
+}
+
+
+ul li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D0E43;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #FB2E86;
+}
+
+ul li a:active {
+    color: #FB2E86;
+}
+
+.search_info {
+    display: flex;
+    border: 2px solid #E7E6EF;
+}
+
+.search_info input {
+   width: 250px;
+   height: 30px;
+   outline: none;
+   border: none;
+}
+
+.search_info button {
+    background: #FB2E86;
+    width: 50px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
