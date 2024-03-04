@@ -1,7 +1,8 @@
 import React from "react";
-import { FiFacebook } from "react-icons/fi";
-import { BiLogoInstagram } from "react-icons/bi";
-import { TfiTwitter } from "react-icons/tfi";
+import { TbBrandFacebookFilled } from "react-icons/tb";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaTwitter } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa";
 import "./footer.css";
 
 const Footer = (props) => {
@@ -16,7 +17,7 @@ const Footer = (props) => {
             <input
               className="text_input"
               type="email"
-              placeholder="Enter Email Address"
+              placeholder="   Enter Email Address"
             />
             <input className="submit_btn" type="submit" value="Sign Up" />
           </form>
@@ -92,23 +93,24 @@ const Footer = (props) => {
 
       <div className="btm_footer">
         <div className="btm_ctn">
-          <div>
+          <div className="copyright">
+            <FaRegCopyright />
             <p>Webecy-All Rights Reserved</p>
           </div>
           <div className="logos">
             <div className="logo_ctn">
               <a href="#">
-                <FiFacebook />
+              <TbBrandFacebookFilled style={{ color: 'white', width: '12px', height: '12px', margin: '4px' }} />
               </a>
             </div>
             <div className="logo_ctn">
               <a href="#">
-                <BiLogoInstagram />
+              <RiInstagramFill style={{ color: 'white', width: '12px', height: '12px', margin: '4px' }} />
               </a>
             </div>
             <div className="logo_ctn">
               <a href="#">
-                <TfiTwitter />
+              <FaTwitter style={{ color: 'white', width: '12px', height: '12px', margin: '4px' }} />
               </a>
             </div>
           </div>
