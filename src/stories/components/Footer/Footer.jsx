@@ -1,9 +1,9 @@
-import React from "react";
+/*import React from "react";
 import { TbBrandFacebookFilled } from "react-icons/tb";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa";
-import "./footer.css";
+import "./Footer.css";
 
 const Footer = (props) => {
   const { variant, children, ...rest } = props;

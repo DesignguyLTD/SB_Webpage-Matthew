@@ -1,4 +1,4 @@
-.footer_body {
+/*.footer_body {
   background: #eeeffb;
 }
 
@@ -16,6 +16,7 @@ h3 {
   margin-bottom: 30px;
   color: #000000;
 }
+
 
 .input_ctn {
   width: 377px;
@@ -61,23 +62,6 @@ h5 {
   color: #000000;
 }
 
-ul {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-ul li {
-  list-style: none;
-  padding-bottom: 25px;
-}
-
-ul li a {
-  text-decoration: none;
-  color: #8a8fb9;
-  font-size: 16px;
-  font-weight: 400;
-}
 
 .btm_footer {
   height: 53px;

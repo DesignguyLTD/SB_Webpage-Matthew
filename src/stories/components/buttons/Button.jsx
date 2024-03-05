@@ -2,12 +2,11 @@ import React from "react";
 import "./button.css";
 
 const Button = (props) => {
-  const { variant, children, ...rest } = props;
-  //const handleClick = () => console.log("This button was clicked"); 
+  const { variant, label, backgroundColor, ...rest } = props;
 
   return (
-    <button className={`button ${variant}`} {...rest} /*onClick={handleClick}*/>
-      {children}
+    <button className={`button ${variant} ${backgroundColor}`} {...rest}>
+      {label}
     </button>
   );
 };

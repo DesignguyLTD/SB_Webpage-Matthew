@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { IoIosSearch } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
@@ -6,7 +6,7 @@ import { IoMailOutline } from "react-icons/io5";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { FaRegUser } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
-import "./navbar.css";
+import "./Navbar.css";
 
 const Navbar = (props) => {
   const { variant, children, ...rest } = props;
@@ -67,27 +67,23 @@ const Navbar = (props) => {
       <div className="btm_nav">
         <div className="inner_ctn">
           <h3>Hekto</h3>
-          <ul>
-            <li className="home_dropdown">
-              <a href="#">Home</a>
-              <IoIosArrowDown />
-            </li>
-            <li>
-              <a href="#">Pages</a>
-            </li>
-            <li>
+          <div className="nav_list">
+            <div className="home_dropdown">
+              <a href="#">Home <IoIosArrowDown /></a>
+            </div>
+            <div className="nav_links">
               <a href="#">Products</a>
-            </li>
-            <li>
+            </div>
+            <div className="nav_links">
               <a href="#">Blog</a>
-            </li>
-            <li>
+            </div>
+            <div className="nav_links">
               <a href="#">Shop</a>
-            </li>
-            <li>
+            </div>
+            <div className="nav_links">
               <a href="#">Contact</a>
-            </li>
-          </ul>
+            </div>
+          </div>
           <div className="search_info">
             <input type="search" for="search" id="search" />
             <button>
