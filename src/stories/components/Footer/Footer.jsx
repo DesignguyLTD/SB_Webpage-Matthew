@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 import { TbBrandFacebookFilled } from "react-icons/tb";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
@@ -6,118 +6,142 @@ import { FaRegCopyright } from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = (props) => {
-  const { variant, children, ...rest } = props;
-
+  const { variant, heading, links, ...rest } = props;
+  const handleClick = () => {
+    console.log('mail has been submitted')
+  }
   return (
-    <div className="footer_body">
-      <div className="center_ctn">
-        <div className="contact_sect">
-          <h3>Hekto</h3>
-          <form action="#" className="input_ctn">
-            <input
-              className="text_input"
-              type="email"
-              placeholder="   Enter Email Address"
-            />
-            <input className="submit_btn" type="submit" value="Sign Up" />
+    <div className="footer_body" {...rest}>
+      <div className="sections">
+        <div className="contact">
+          <h2>Hekto</h2>
+          <form action="#">
+            <input className="text" type="email" id='email' placeholder=" Enter email Address" />
+            <input type="reset" value="Sign Up" className="button" onClick={handleClick} />
           </form>
-          <p className="contact_text">Contact Info</p>
-          <p className="contact_address">
-            17 Princess Road, London, Greater London NW1 8JR, UK
-          </p>
+          <p className="Cont-p">Contact Info</p>
+          <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
         </div>
-        <div className="footer_sections">
-          <h5>Categories</h5>
-          <ul>
-            <li>
+        <div className="section-1">
+          <div classname="sect-head">
+            <h3>Categories</h3>
+          </div>
+          <div className="sect-body">
+            <div>
               <a href="#">Laptops & Computers</a>
-            </li>
-            <li>
-              <a href="#">Cameras & Photography</a>
-            </li>
-            <li>
+            </div>
+            <div>
+              <a href="#">Cameras and Photography</a>
+            </div>
+            <div>
               <a href="#">Smart Phones & Tablets</a>
-            </li>
-            <li>
-              <a href="#">Video Games & Consoles</a>
-            </li>
-            <li>
+            </div>
+            <div>
+              <a href="#">Video Games and Consoles</a>
+            </div>
+            <div>
               <a href="#">Waterproof Headphones</a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
-        <div className="footer_sections">
-          <h5>Customer Care</h5>
-          <ul>
-            <li>
-              <a href="#">My Accounts</a>
-            </li>
-            <li>
+        <div className="section-2">
+          <div classname="sect-head">
+            <h3>Customer Care</h3>
+          </div>
+          <div className="sect-body">
+            <div>
+              <a href="#">My Account</a>
+            </div>
+            <div>
               <a href="#">Discount</a>
-            </li>
-            <li>
+            </div>
+            <div>
               <a href="#">Returns</a>
-            </li>
-            <li>
-              <a href="#">Orders History</a>
-            </li>
-            <li>
+            </div>
+            <div>
               <a href="#">Order Tracking</a>
-            </li>
-          </ul>
+            </div>
+            <div>
+              <a href="#">Waterproof Headphones</a>
+            </div>
+          </div>
         </div>
-        <div className="footer_sections">
-          <h5>Pages</h5>
-          <ul>
-            <li>
-              <a href="#">Blogs</a>
-            </li>
-            <li>
+        <div className="section-3">
+          <div classname="sect-head">
+            <h3>Pages</h3>
+          </div>
+          <div className="sect-body">
+            <div>
+              <a href="#">Blog</a>
+            </div>
+            <div>
               <a href="#">Browse the Shop</a>
-            </li>
-            <li>
+            </div>
+            <div>
               <a href="#">Category</a>
-            </li>
-            <li>
+            </div>
+            <div>
               <a href="#">Pre-Built Pages</a>
-            </li>
-            <li>
-              <a href="#">Visual Composer Element</a>
-            </li>
-            <li>
+            </div>
+            <div>
+              <a href="#">Visual Composer Elements</a>
+            </div>
+            <div>
               <a href="#">WooCommerce Pages</a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
-
+       
       <div className="btm_footer">
-        <div className="btm_ctn">
-          <div className="copyright">
-            <FaRegCopyright />
-            <p>Webecy-All Rights Reserved</p>
-          </div>
-          <div className="logos">
-            <div className="logo_ctn">
-              <a href="#">
-              <TbBrandFacebookFilled style={{ color: 'white', width: '12px', height: '12px', margin: '4px' }} />
-              </a>
+          <div className="btm_ctn">
+            <div className="copyright">
+              <FaRegCopyright />
+              <p>Webecy-All Rights Reserved</p>
             </div>
-            <div className="logo_ctn">
-              <a href="#">
-              <RiInstagramFill style={{ color: 'white', width: '12px', height: '12px', margin: '4px' }} />
-              </a>
-            </div>
-            <div className="logo_ctn">
-              <a href="#">
-              <FaTwitter style={{ color: 'white', width: '12px', height: '12px', margin: '4px' }} />
-              </a>
+            <div className="logos">
+              <div className="logo_ctn">
+                <a href="#">
+                  <TbBrandFacebookFilled
+                    style={{
+                      color: "white",
+                      width: "12px",
+                      height: "12px",
+                      margin: "4px",
+                    }}
+                  />
+                </a>
+              </div>
+              <div className="logo_ctn">
+                <a href="#">
+                  <RiInstagramFill
+                    style={{
+                      color: "white",
+                      width: "12px",
+                      height: "12px",
+                      margin: "4px",
+                    }}
+                  />
+                </a>
+              </div>
+              <div className="logo_ctn">
+                <a href="#">
+                  <FaTwitter
+                    style={{
+                      color: "white",
+                      width: "12px",
+                      height: "12px",
+                      margin: "4px",
+                    }}
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };
 
 export default Footer;
+

@@ -5,7 +5,7 @@ const Button = (props) => {
   const { variant, label, backgroundColor, ...rest } = props;
 
   return (
-    <button className={`button ${variant} ${backgroundColor}`} {...rest}>
+    <button className={`button ${variant}`} style={{backgroundColor:backgroundColor}} {...rest}>
       {label}
     </button>
   );

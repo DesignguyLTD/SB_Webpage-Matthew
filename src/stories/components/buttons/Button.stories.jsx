@@ -16,7 +16,7 @@ export default {
   }
 };
 
-const Template = (args, argTypes) => <Button {...args} {...argTypes} />;
+const Template = (args) => <Button {...args} />;
 
 
 /*Intro Button*/
