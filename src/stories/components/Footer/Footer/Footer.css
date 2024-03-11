@@ -1,0 +1,20 @@
+.footer {
+    background: #EEEFFB;
+}
+
+.contact-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    width: 1000px;
+    margin: auto;
+}
+
+.mail {
+    margin-bottom: 50px;
+}
+
+.pages {
+    margin-top: 38px;
+}
