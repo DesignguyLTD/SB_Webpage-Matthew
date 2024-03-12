@@ -1,27 +1,57 @@
 .Card {
     width: 370px;
     height: 493px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: hsba(250, 77%, 54%, 0.05);
 }
 
-.Card:hover .title, .Card:hover a {
+.Card:hover .blog-title, .Card:hover a {
     color: rgba(251, 46, 134, 1);
 }
-.images {
+.images img {
     width: 370px;
     height: 255px;
+    margin-bottom: 5px;
     object-fit: contain;
+    border-radius: 5px;
+}
+
+.btm-ctn {
+    padding-left: 20px;
 }
 
 .blogger-details {
     display: flex;
 }
 
-.blogger, .date {
+.pen {
+    color: rgba(251, 46, 134, 1);
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+.calendar {
+    color: rgba(255, 164, 84, 1);
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+
+.blogger {
+    font-size: 14px;
+    color: #151875;
+    margin-right: 20px;
+}
+
+.dates {
     font-size: 14px;
     color: #151875;
 }
 
-.title {
+.blog-title {
+    padding: 20px 0px;
+    margin: 0;
     font-size: 18px;
     color: #151875;
 }
@@ -29,6 +59,9 @@
 .about {
     width: 297px;
     height: 60px;
+    margin: 0;
+    line-height: 30px;
+    padding-bottom: 20px;
     font-size: 16px;
     font-weight: 400;
     color: #72718F;

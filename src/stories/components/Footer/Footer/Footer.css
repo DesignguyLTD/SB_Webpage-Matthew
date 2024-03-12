@@ -2,13 +2,18 @@
     background: #EEEFFB;
 }
 
+.inner-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .contact-infos {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 20px;
-    width: 1000px;
-    margin: auto;
+    width: 1020px;
 }
 
 .mail {

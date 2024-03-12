@@ -6,32 +6,23 @@ import {
   Categories,
   Pages,
 } from "../ContactSection/ContactSection.stories";
-import { Input } from "../EmailSection/Email.stories";
 import { CopyrightText } from "../copyright/copyright.stories";
 const Footer = (props) => {
-  const {categories,careline,pages,copyright } = props;
+  const { categories, careline, pages, copyright, mail } = props;
 
   return (
     <div className="footer">
-      <div className="contact-infos">
-        <Email className="mail"
-          {...Input.args}
-        />
-        <Categories
-        {...categories}
-        />
-        <Careline 
-        {...careline}
-        />
-        <Pages className="pages"
-        {...pages}
-        />
+      <div className="inner-footer">
+        <div className="contact-infos">
+          <Email className="mail" {...mail} />
+          <Categories {...categories} />
+          <Careline {...careline} />
+          <Pages className="pages" {...pages} />
+        </div>
       </div>
-      <div>
-      <CopyrightText
-      {...copyright}
-      />
-      </div>
+        <div>
+          <CopyrightText {...copyright} />
+        </div>
     </div>
   );
 };

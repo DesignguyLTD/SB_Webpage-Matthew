@@ -1,0 +1,51 @@
+.card-ctn {
+  width: 270px;
+  height: 350px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  border-radius: 5px;
+}
+
+.image-ctn {
+  width: 247px;
+  height: 244px;
+  background: rgba(245, 246, 248, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-ctn img {
+  width: 171px;
+  height: 171px;
+}
+
+.title {
+  color: rgba(21, 24, 117, 1);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.newprice {
+  color: rgba(21, 24, 117, 1);
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.oldprice {
+  color: rgba(21, 24, 117, 0.3);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.card-ctn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
