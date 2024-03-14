@@ -11,9 +11,10 @@
 .contact-infos {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     align-items: center;
     padding: 50px 20px;
-    width: 1020px;
+    width: 1100px;
 }
 
 .mail {

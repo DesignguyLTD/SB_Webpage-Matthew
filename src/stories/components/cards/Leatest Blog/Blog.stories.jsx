@@ -2,7 +2,7 @@ import React from 'react';
 import Blog from './Blog';
 
 export default {
-    title : "Homepage/Blog",
+    title : "Homepage/Cards",
     Component: Blog,
 }
 

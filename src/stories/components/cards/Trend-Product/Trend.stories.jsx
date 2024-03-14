@@ -3,7 +3,7 @@ import Trend from "./Trend";
 
 
 export default {
-    title: "Homepage/Trend",
+    title: "Homepage/Cards",
     component: Trend,
 }
 

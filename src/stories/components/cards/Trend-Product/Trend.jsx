@@ -12,7 +12,7 @@ const Trend = (props) => {
         </div>
         <div className="btm-trend">
           <p className="title">{title}</p>
-          <span>
+          <span className="price-sect">
             <p className="newprice">{newPrice}</p>
             <p className="oldprice">{oldPrice}</p>
           </span>

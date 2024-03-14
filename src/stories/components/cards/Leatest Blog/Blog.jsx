@@ -16,12 +16,20 @@ const Blog = (props) => {
         </div>
         <div className="btm-ctn">
           <div className="blogger-details">
-            <span className="blogger"><FaPenNib className="pen" />{blogger}</span>
-            <span className="dates"><MdOutlineDateRange className="calendar" />{dates}</span>
+            <span className="blogger">
+              <FaPenNib className="pen" />
+              {blogger}
+            </span>
+            <span className="dates">
+              <MdOutlineDateRange className="calendar" />
+              {dates}
+            </span>
           </div>
+          <div className="blog-texts">
           <h3 className="blog-title">{title}</h3>
           <p className="about">{about}</p>
           <a href="#">Read More</a>
+          </div>
         </div>
       </div>
     </div>

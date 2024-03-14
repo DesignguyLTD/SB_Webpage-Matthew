@@ -2,7 +2,7 @@ import React from "react";
 import ContactSection from "./ContactSection";
 
 export default {
-  title: "Homepage/ContactSection",
+  title: "Homepage/Footer",
   component: ContactSection,
 };
 

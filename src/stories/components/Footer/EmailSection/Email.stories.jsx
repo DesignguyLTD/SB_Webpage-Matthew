@@ -3,7 +3,7 @@ import Email from "./Email";
 
 
 export default {
-  title: "Homepage/Email",
+  title: "Homepage/Footer",
   component: Email,
 }
 

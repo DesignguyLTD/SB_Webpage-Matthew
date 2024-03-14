@@ -1,0 +1,16 @@
+.feat-ctn{
+    width: 270px;
+    height: 361px;
+}
+
+.feat-ctn div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(238, 239, 251, 1);
+}
+
+.feat-icons {
+    display: flex;
+    gap: 10px;
+}

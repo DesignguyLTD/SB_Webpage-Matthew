@@ -1,0 +1,42 @@
+.Shoppex-ctn {
+    width: 270px;
+    height: 320px;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: rgba(49, 32, 138, 0.05);
+    border-radius: 8px; 
+}
+
+.Shopimg-ctn {
+    text-align: center;
+}
+.Shopimg-ctn img {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+}
+
+.Shopbtm-ctn h3 {
+    text-align: center;
+    font-size: 22px;
+    color: rgba(21, 24, 117, 1);
+}
+
+.Shop-text {
+    display: flex;
+    justify-content: center;
+}
+.Shopbtm-ctn p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+    width: 217px;
+    height: 85px;
+    text-align: center;
+    margin: 0;
+    color: rgba(26, 11, 91, 0.3);
+
+}

@@ -56,8 +56,8 @@
     color: #151875;
 }
 
-.about {
-    width: 297px;
+.blog-texts p {
+    width: 300px;
     height: 60px;
     margin: 0;
     line-height: 30px;
@@ -67,7 +67,7 @@
     color: #72718F;
 }
 
-.Card a {
+.blog-texts a {
     font-size: 16px;
     color: #151875;
 }

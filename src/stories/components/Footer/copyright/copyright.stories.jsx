@@ -1,7 +1,7 @@
 import Copyright from "./copyright";
 
 export default {
-  title: "Homepage/copyright",
+  title: "Homepage/Footer",
   component: Copyright,
 };
 
